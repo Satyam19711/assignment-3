@@ -1,0 +1,116 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+
+    
+  
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    justify-content: space-around;
+    gap: 30px;
+    
+}
+
+header{
+    background-color: black;
+    height: 95px;
+    
+}
+.leftheader{
+   
+    float: left;
+    padding-right:550px;
+    display: flex;
+    gap: 50px;
+    font-size: 15px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+}
+
+.a1{
+    font-size: 20px;
+    
+}
+
+.logo{
+    width: 95px;
+    
+}
+
+nav div ul{
+    display: flex;
+    
+    gap: 50px;
+    font-weight: 500;
+   
+}
+nav div button{
+    display: flex;
+    margin-right: 50px;
+    padding: 10px 13px;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    background-color: rgb(180, 19, 163);
+    border-radius: 10px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+nav div ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 172px;
+    text-align: center;
+    color: white;
+    
+}
+
+main div h1{
+    font-size: 80px;
+    line-height: 90px;
+}
+
+main div p{
+    line-height: 70px;
+    font-size: 25px;
+}
+
+main div button{
+   
+    display: flex;
+    margin-right: 50px;
+    padding: 20px 25px;
+    font-size: 22px;
+    color: white;
+    font-weight: 700;
+    border: none;
+    background-color: rgb(180, 19, 163);
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 64px;
+    margin-left:230px ;
+
+}
